@@ -1,4 +1,4 @@
-LOG_FILE="/c/Users/Tarun/Desktop/revature/sample-log.txt"
+LOG_FILE="/c/Users/Satish varma/Desktop/revature/sample-log.txt"
 echo "===================LOG ANALYSIS REPORT================="
 echo "File: $LOG_FILE"
 if [ ! -e $LOG_FILE ]; then
