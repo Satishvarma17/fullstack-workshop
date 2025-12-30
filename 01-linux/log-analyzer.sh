@@ -1,6 +1,11 @@
+#!/bin/bash
+set -e
+
+# file path
 LOG_FILE="/c/Users/Satish varma/Desktop/revature/sample-log.txt"
 echo "===================LOG ANALYSIS REPORT================="
 echo "File: $LOG_FILE"
+# checks file exist or not
 if [ ! -e $LOG_FILE ]; then
         echo "Error : Log file not found";
 else
