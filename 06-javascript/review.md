@@ -1,7 +1,7 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-30 12:18
+**Review Date:** 2025-12-30 15:30
 
 ---
 
@@ -24,15 +24,15 @@
 
 📄 **counter.js**
    Path: `06-javascript/challenge-01/counter.js`
-   Lines: 22
+   Lines: 26
 
     - ✅ Uses `const`/`let` (no `var`)
-    - ❌ Uses loose equality (`==`) 1 times
-    - 💡 Consider using arrow functions
-    - 💡 Consider using template literals for string interpolation
+    - ✅ Uses strict equality (`===`)
+    - ✅ Uses arrow functions
+    - ✅ Uses template literals
     - 💡 Consider using array methods (map, filter, reduce)
 
-   **Score: 1/5**
+   **Score: 4/5**
 
 📄 **todo.html**
    Path: `06-javascript/challenge-03/todo.html`
@@ -59,14 +59,14 @@
 
 📄 **modal.html**
    Path: `06-javascript/challenge-05/modal.html`
-   Lines: 60
+   Lines: 68
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
-    - ❌ Missing viewport meta tag
-    - 💡 Add `lang` attribute to `<html>` tag
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
 
-   **Score: 2/5**
+   **Score: 5/5**
 
 📄 **modal.js**
    Path: `06-javascript/challenge-05/modal.js`
@@ -133,12 +133,12 @@
    Lines: 53
 
     - ✅ Uses `const`/`let` (no `var`)
-    - ❌ Uses loose equality (`==`) 7 times
-    - 💡 Consider using arrow functions
+    - ✅ Uses strict equality (`===`)
+    - ✅ Uses arrow functions
     - 💡 Consider using template literals for string interpolation
     - 💡 Consider using array methods (map, filter, reduce)
 
-   **Score: 1/5**
+   **Score: 3/5**
 
 📄 **array-methods.js**
    Path: `06-javascript/challenge-17/array-methods.js`
@@ -146,13 +146,13 @@
 
     - ✅ Uses `const`/`let` (no `var`)
     - ✅ Uses strict equality (`===`)
-    - 💡 Consider using arrow functions
+    - ✅ Uses arrow functions
     - 💡 Consider using template literals for string interpolation
     - 💡 Consider using array methods (map, filter, reduce)
 
-   **Score: 2/5**
+   **Score: 3/5**
 
-### Topic Score: 38 / 60 (63%)
+### Topic Score: 47 / 60 (78%)
 
 ---
 
