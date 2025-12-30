@@ -1,4 +1,4 @@
-function myMap(arr, callback) {
+const myMap=(arr, callback)=> {
   const result = [];
   for (let i = 0; i < arr.length; i++) {
     result[result.length] = callback(arr[i], i, arr);
@@ -6,7 +6,7 @@ function myMap(arr, callback) {
   return result;
 }
 
-function myFilter(arr, callback) {
+const myFilter=(arr, callback)=> {
   const result = [];
   for (let i = 0; i < arr.length; i++) {
     if (callback(arr[i], i, arr)) {
@@ -16,7 +16,7 @@ function myFilter(arr, callback) {
   return result;
 }
 
-function myReduce(arr, callback, initialValue) {
+const myReduce=(arr, callback, initialValue) =>{
   let acc = initialValue;
   let start = 0;
 
@@ -32,7 +32,7 @@ function myReduce(arr, callback, initialValue) {
   return acc;
 }
 
-function myFind(arr, callback) {
+const myFind=(arr, callback)=> {
   for (let i = 0; i < arr.length; i++) {
     if (callback(arr[i], i, arr)) {
       return arr[i];
@@ -41,7 +41,7 @@ function myFind(arr, callback) {
   return undefined;
 }
 
-function myEvery(arr, callback) {
+const myEvery=(arr, callback) =>{
   for (let i = 0; i < arr.length; i++) {
     if (!callback(arr[i], i, arr)) {
       return false;
@@ -50,7 +50,7 @@ function myEvery(arr, callback) {
   return true;
 }
 
-function mySome(arr, callback) {
+const  mySome=(arr, callback)=> {
   for (let i = 0; i < arr.length; i++) {
     if (callback(arr[i], i, arr)) {
       return true;
@@ -59,7 +59,7 @@ function mySome(arr, callback) {
   return false;
 }
 
-function myFlat(arr, depth = 1) {
+const  myFlat=(arr, depth = 1) =>{
   const result = [];
 
   function flatten(array, d) {
