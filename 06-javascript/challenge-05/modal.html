@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Simple Modal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body.noscroll { overflow: hidden; }
 
@@ -48,10 +49,17 @@
       margin-top: 10px;
       text-align: right;
     }
+    .navv{
+      display: none;
+    }
   </style>
 </head>
 <body>
-
+<nav class="navv">
+navbar
+</nav>
+<header class="navv">header</header>
+<main class="navv">main</main>
 <button onclick="openModal()">Open Modal</button>
 
 <script src="./modal.js"></script>
