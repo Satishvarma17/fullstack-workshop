@@ -1,7 +1,7 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2026-01-03 16:16
+**Review Date:** 2026-01-05 15:08
 
 ---
 
@@ -37,28 +37,28 @@ Please complete the correct exercise and resubmit.
 ### Challenge Code Review
 
 📄 **department-stats.sql**
-   Lines: 3
+   Lines: 4
 
     📋 **Challenge 1: Department Stats**
     Expected: department, employee_count, avg_salary, max_salary
 
     - ✅ Groups by department
-    - ❌ Missing COUNT(*) for employee count
+    - ✅ Counts employees (COUNT(*))
     - ✅ Calculates average salary
     - ✅ Finds maximum salary
     - ✅ Filters departments with >2 employees (HAVING)
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **employee-hierarchy.sql**
-   Lines: 3
+   Lines: 6
 
     - ✅ Contains 1 SELECT statement(s)
     - ✅ Uses JOIN operations
-    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses aggregate functions
     - ✅ Uses explicit column selection
 
-   **Score: 3/5**
+   **Score: 4/5**
 
 📄 **project-workload.sql**
    Lines: 6
@@ -72,13 +72,13 @@ Please complete the correct exercise and resubmit.
    **Score: 5/5**
 
 📄 **top-earners.sql**
-   Lines: 3
+   Lines: 5
 
     - ✅ Contains 1 SELECT statement(s)
-    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
-    - ⚠️ Uses `SELECT *` - prefer explicit columns
+    - ✅ Uses aggregate functions
+    - ✅ Uses explicit column selection
 
-   **Score: 1/4**
+   **Score: 3/4**
 
 📄 **unassigned-resources.sql**
    Lines: 5
@@ -99,7 +99,7 @@ Please complete the correct exercise and resubmit.
 
    **Score: 2/4**
 
-### Challenge Score: 18 / 28 (64%)
+### Challenge Score: 22 / 28 (78%)
 
 
 ---
